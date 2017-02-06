@@ -2,6 +2,7 @@ iOS-2048
 ================
 
 iOS drop-in library presenting a clean-room Objective-C/Cocoa implementation of the game 2048.
+
 Build it on React Native framework.
 
 Screenshot
@@ -24,6 +25,7 @@ Features
 - API for informing parent of game status/victory state
 - Pretty animations, all done without SpriteKit
 - Added React Native score page
+
 Future Features
 ---------------
 - Better win/lose screens than UIAlertViews
