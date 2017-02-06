@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A3487B118DEAD6E00D021C3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A3487B018DEAD6E00D021C3 /* Foundation.framework */; };
+		1A3487B318DEAD6E00D021C3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A3487B218DEAD6E00D021C3 /* CoreGraphics.framework */; };
+		1A3487B518DEAD6E00D021C3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A3487B418DEAD6E00D021C3 /* UIKit.framework */; };
+		1A3487BB18DEAD6E00D021C3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1A3487B918DEAD6E00D021C3 /* InfoPlist.strings */; };
+		1A3487BD18DEAD6E00D021C3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A3487BC18DEAD6E00D021C3 /* main.m */; };
+		1A3487C118DEAD6E00D021C3 /* F3HAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A3487C018DEAD6E00D021C3 /* F3HAppDelegate.m */; };
+		1A3487C418DEAD6E00D021C3 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A3487C218DEAD6E00D021C3 /* Main_iPhone.storyboard */; };
+		1A3487CA18DEAD6E00D021C3 /* F3HViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A3487C918DEAD6E00D021C3 /* F3HViewController.m */; };
+		1A3487CC18DEAD6E00D021C3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A3487CB18DEAD6E00D021C3 /* Images.xcassets */; };
+		1A3487F318DEBADA00D021C3 /* F3HNumberTileGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A3487F218DEBADA00D021C3 /* F3HNumberTileGameViewController.m */; };
+		1A3487F618DEBB9C00D021C3 /* F3HTileAppearanceProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A3487F518DEBB9C00D021C3 /* F3HTileAppearanceProvider.m */; };
+		1A34880318E1465D00D021C3 /* F3HMoveOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A34880218E1465D00D021C3 /* F3HMoveOrder.m */; };
+		1A34880D18E1468400D021C3 /* F3HGameModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A34880C18E1468400D021C3 /* F3HGameModel.m */; };
+		1A34881018E146D800D021C3 /* F3HTileModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A34880F18E146D700D021C3 /* F3HTileModel.m */; };
+		1A34881318E1477B00D021C3 /* F3HMergeTile.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A34881218E1477B00D021C3 /* F3HMergeTile.m */; };
+		1A34881E18E148DB00D021C3 /* F3HGameboardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A34881B18E148DB00D021C3 /* F3HGameboardView.m */; };
+		1A34881F18E148DB00D021C3 /* F3HTileView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A34881D18E148DB00D021C3 /* F3HTileView.m */; };
+		1A34882218E14BF200D021C3 /* F3HQueueCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A34882118E14BF200D021C3 /* F3HQueueCommand.m */; };
+		1A34882518E169AA00D021C3 /* F3HScoreView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A34882418E169AA00D021C3 /* F3HScoreView.m */; };
+		1A34882818E1713E00D021C3 /* F3HControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A34882718E1713E00D021C3 /* F3HControlView.m */; };
+		1A92D000191A016600E35C6C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A92CFFF191A016600E35C6C /* QuartzCore.framework */; };
+		46D79F47B70483963B13B7A2 /* libPods-NumberTileGame.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CEA037EDFD17E5E64D266F1C /* libPods-NumberTileGame.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1A3487AD18DEAD6E00D021C3 /* NumberTileGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NumberTileGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A3487B018DEAD6E00D021C3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1A3487B218DEAD6E00D021C3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1A3487B418DEAD6E00D021C3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1A3487B818DEAD6E00D021C3 /* NumberTileGame-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NumberTileGame-Info.plist"; sourceTree = "<group>"; };
+		1A3487BA18DEAD6E00D021C3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1A3487BC18DEAD6E00D021C3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1A3487BE18DEAD6E00D021C3 /* NumberTileGame-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NumberTileGame-Prefix.pch"; sourceTree = "<group>"; };
+		1A3487BF18DEAD6E00D021C3 /* F3HAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = F3HAppDelegate.h; sourceTree = "<group>"; };
+		1A3487C018DEAD6E00D021C3 /* F3HAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = F3HAppDelegate.m; sourceTree = "<group>"; };
+		1A3487C318DEAD6E00D021C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		1A3487C818DEAD6E00D021C3 /* F3HViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = F3HViewController.h; sourceTree = "<group>"; };
+		1A3487C918DEAD6E00D021C3 /* F3HViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = F3HViewController.m; sourceTree = "<group>"; };
+		1A3487CB18DEAD6E00D021C3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1A3487D218DEAD6E00D021C3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		1A3487F118DEBADA00D021C3 /* F3HNumberTileGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = F3HNumberTileGameViewController.h; sourceTree = "<group>"; };
+		1A3487F218DEBADA00D021C3 /* F3HNumberTileGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = F3HNumberTileGameViewController.m; sourceTree = "<group>"; };
+		1A3487F418DEBB9C00D021C3 /* F3HTileAppearanceProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = F3HTileAppearanceProvider.h; sourceTree = "<group>"; };
+		1A3487F518DEBB9C00D021C3 /* F3HTileAppearanceProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = F3HTileAppearanceProvider.m; sourceTree = "<group>"; };
+		1A34880118E1465D00D021C3 /* F3HMoveOrder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = F3HMoveOrder.h; path = Models/F3HMoveOrder.h; sourceTree = "<group>"; };
+		1A34880218E1465D00D021C3 /* F3HMoveOrder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = F3HMoveOrder.m; path = Models/F3HMoveOrder.m; sourceTree = "<group>"; };
+		1A34880B18E1468400D021C3 /* F3HGameModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = F3HGameModel.h; path = Models/F3HGameModel.h; sourceTree = "<group>"; };
+		1A34880C18E1468400D021C3 /* F3HGameModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = F3HGameModel.m; path = Models/F3HGameModel.m; sourceTree = "<group>"; };
+		1A34880E18E146D700D021C3 /* F3HTileModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = F3HTileModel.h; path = Models/F3HTileModel.h; sourceTree = "<group>"; };
+		1A34880F18E146D700D021C3 /* F3HTileModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = F3HTileModel.m; path = Models/F3HTileModel.m; sourceTree = "<group>"; };
+		1A34881118E1477B00D021C3 /* F3HMergeTile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = F3HMergeTile.h; path = Models/F3HMergeTile.h; sourceTree = "<group>"; };
+		1A34881218E1477B00D021C3 /* F3HMergeTile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = F3HMergeTile.m; path = Models/F3HMergeTile.m; sourceTree = "<group>"; };
+		1A34881A18E148DB00D021C3 /* F3HGameboardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = F3HGameboardView.h; path = Views/F3HGameboardView.h; sourceTree = "<group>"; };
+		1A34881B18E148DB00D021C3 /* F3HGameboardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = F3HGameboardView.m; path = Views/F3HGameboardView.m; sourceTree = "<group>"; };
+		1A34881C18E148DB00D021C3 /* F3HTileView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = F3HTileView.h; path = Views/F3HTileView.h; sourceTree = "<group>"; };
+		1A34881D18E148DB00D021C3 /* F3HTileView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = F3HTileView.m; path = Views/F3HTileView.m; sourceTree = "<group>"; };
+		1A34882018E14BF200D021C3 /* F3HQueueCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = F3HQueueCommand.h; path = Models/F3HQueueCommand.h; sourceTree = "<group>"; };
+		1A34882118E14BF200D021C3 /* F3HQueueCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = F3HQueueCommand.m; path = Models/F3HQueueCommand.m; sourceTree = "<group>"; };
+		1A34882318E169AA00D021C3 /* F3HScoreView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = F3HScoreView.h; path = Views/F3HScoreView.h; sourceTree = "<group>"; };
+		1A34882418E169AA00D021C3 /* F3HScoreView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = F3HScoreView.m; path = Views/F3HScoreView.m; sourceTree = "<group>"; };
+		1A34882618E1713E00D021C3 /* F3HControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = F3HControlView.h; path = Views/F3HControlView.h; sourceTree = "<group>"; };
+		1A34882718E1713E00D021C3 /* F3HControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = F3HControlView.m; path = Views/F3HControlView.m; sourceTree = "<group>"; };
+		1A92CFFF191A016600E35C6C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		372131E4CF43C4C9C7AC854E /* Pods-NumberTileGame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NumberTileGame.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NumberTileGame/Pods-NumberTileGame.debug.xcconfig"; sourceTree = "<group>"; };
+		3FF396F78AE76EB6922CA0EF /* Pods-NumberTileGameTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NumberTileGameTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NumberTileGameTests/Pods-NumberTileGameTests.release.xcconfig"; sourceTree = "<group>"; };
+		73A13D3D7D8792509624D0C9 /* libPods-NumberTileGameTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NumberTileGameTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEA037EDFD17E5E64D266F1C /* libPods-NumberTileGame.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NumberTileGame.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3297EEC77139FA4E2239584 /* Pods-NumberTileGameTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NumberTileGameTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NumberTileGameTests/Pods-NumberTileGameTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F883BF95CFBAEDA4768346DC /* Pods-NumberTileGame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NumberTileGame.release.xcconfig"; path = "Pods/Target Support Files/Pods-NumberTileGame/Pods-NumberTileGame.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A3487AA18DEAD6E00D021C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A92D000191A016600E35C6C /* QuartzCore.framework in Frameworks */,
+				1A3487B318DEAD6E00D021C3 /* CoreGraphics.framework in Frameworks */,
+				1A3487B518DEAD6E00D021C3 /* UIKit.framework in Frameworks */,
+				1A3487B118DEAD6E00D021C3 /* Foundation.framework in Frameworks */,
+				46D79F47B70483963B13B7A2 /* libPods-NumberTileGame.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A3487A418DEAD6E00D021C3 = {
+			isa = PBXGroup;
+			children = (
+				1A3487B618DEAD6E00D021C3 /* NumberTileGame */,
+				1A3487AF18DEAD6E00D021C3 /* Frameworks */,
+				1A3487AE18DEAD6E00D021C3 /* Products */,
+				665B01E7790B5DAD45D24C11 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		1A3487AE18DEAD6E00D021C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A3487AD18DEAD6E00D021C3 /* NumberTileGame.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A3487AF18DEAD6E00D021C3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A92CFFF191A016600E35C6C /* QuartzCore.framework */,
+				1A3487B018DEAD6E00D021C3 /* Foundation.framework */,
+				1A3487B218DEAD6E00D021C3 /* CoreGraphics.framework */,
+				1A3487B418DEAD6E00D021C3 /* UIKit.framework */,
+				1A3487D218DEAD6E00D021C3 /* XCTest.framework */,
+				CEA037EDFD17E5E64D266F1C /* libPods-NumberTileGame.a */,
+				73A13D3D7D8792509624D0C9 /* libPods-NumberTileGameTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1A3487B618DEAD6E00D021C3 /* NumberTileGame */ = {
+			isa = PBXGroup;
+			children = (
+				1A3487BF18DEAD6E00D021C3 /* F3HAppDelegate.h */,
+				1A3487C018DEAD6E00D021C3 /* F3HAppDelegate.m */,
+				1A3487C218DEAD6E00D021C3 /* Main_iPhone.storyboard */,
+				1A3487C818DEAD6E00D021C3 /* F3HViewController.h */,
+				1A3487C918DEAD6E00D021C3 /* F3HViewController.m */,
+				1A3487CB18DEAD6E00D021C3 /* Images.xcassets */,
+				1A3487B718DEAD6E00D021C3 /* Supporting Files */,
+				1A3487FF18E1461F00D021C3 /* Models */,
+				1A34880018E1463E00D021C3 /* Views */,
+				1A3487F118DEBADA00D021C3 /* F3HNumberTileGameViewController.h */,
+				1A3487F218DEBADA00D021C3 /* F3HNumberTileGameViewController.m */,
+				1A3487F418DEBB9C00D021C3 /* F3HTileAppearanceProvider.h */,
+				1A3487F518DEBB9C00D021C3 /* F3HTileAppearanceProvider.m */,
+			);
+			path = NumberTileGame;
+			sourceTree = "<group>";
+		};
+		1A3487B718DEAD6E00D021C3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1A3487B818DEAD6E00D021C3 /* NumberTileGame-Info.plist */,
+				1A3487B918DEAD6E00D021C3 /* InfoPlist.strings */,
+				1A3487BC18DEAD6E00D021C3 /* main.m */,
+				1A3487BE18DEAD6E00D021C3 /* NumberTileGame-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1A3487FF18E1461F00D021C3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1A34880B18E1468400D021C3 /* F3HGameModel.h */,
+				1A34880C18E1468400D021C3 /* F3HGameModel.m */,
+				1A34880118E1465D00D021C3 /* F3HMoveOrder.h */,
+				1A34880218E1465D00D021C3 /* F3HMoveOrder.m */,
+				1A34880E18E146D700D021C3 /* F3HTileModel.h */,
+				1A34880F18E146D700D021C3 /* F3HTileModel.m */,
+				1A34881118E1477B00D021C3 /* F3HMergeTile.h */,
+				1A34881218E1477B00D021C3 /* F3HMergeTile.m */,
+				1A34882018E14BF200D021C3 /* F3HQueueCommand.h */,
+				1A34882118E14BF200D021C3 /* F3HQueueCommand.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		1A34880018E1463E00D021C3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1A34881A18E148DB00D021C3 /* F3HGameboardView.h */,
+				1A34881B18E148DB00D021C3 /* F3HGameboardView.m */,
+				1A34881C18E148DB00D021C3 /* F3HTileView.h */,
+				1A34881D18E148DB00D021C3 /* F3HTileView.m */,
+				1A34882318E169AA00D021C3 /* F3HScoreView.h */,
+				1A34882418E169AA00D021C3 /* F3HScoreView.m */,
+				1A34882618E1713E00D021C3 /* F3HControlView.h */,
+				1A34882718E1713E00D021C3 /* F3HControlView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		665B01E7790B5DAD45D24C11 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				372131E4CF43C4C9C7AC854E /* Pods-NumberTileGame.debug.xcconfig */,
+				F883BF95CFBAEDA4768346DC /* Pods-NumberTileGame.release.xcconfig */,
+				F3297EEC77139FA4E2239584 /* Pods-NumberTileGameTests.debug.xcconfig */,
+				3FF396F78AE76EB6922CA0EF /* Pods-NumberTileGameTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A3487AC18DEAD6E00D021C3 /* NumberTileGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A3487E218DEAD6E00D021C3 /* Build configuration list for PBXNativeTarget "NumberTileGame" */;
+			buildPhases = (
+				B0CA370AD9447C40EB306432 /* [CP] Check Pods Manifest.lock */,
+				1A3487A918DEAD6E00D021C3 /* Sources */,
+				1A3487AA18DEAD6E00D021C3 /* Frameworks */,
+				1A3487AB18DEAD6E00D021C3 /* Resources */,
+				C136EF09B6466DC28C9EBC77 /* [CP] Embed Pods Frameworks */,
+				E3D4516053224B4299590FCA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NumberTileGame;
+			productName = NumberTileGame;
+			productReference = 1A3487AD18DEAD6E00D021C3 /* NumberTileGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A3487A518DEAD6E00D021C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = F3H;
+				LastUpgradeCheck = 0820;
+				TargetAttributes = {
+					1A3487AC18DEAD6E00D021C3 = {
+						DevelopmentTeam = GYV39WAN3G;
+					};
+				};
+			};
+			buildConfigurationList = 1A3487A818DEAD6E00D021C3 /* Build configuration list for PBXProject "NumberTileGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1A3487A418DEAD6E00D021C3;
+			productRefGroup = 1A3487AE18DEAD6E00D021C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A3487AC18DEAD6E00D021C3 /* NumberTileGame */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A3487AB18DEAD6E00D021C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A3487CC18DEAD6E00D021C3 /* Images.xcassets in Resources */,
+				1A3487C418DEAD6E00D021C3 /* Main_iPhone.storyboard in Resources */,
+				1A3487BB18DEAD6E00D021C3 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B0CA370AD9447C40EB306432 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C136EF09B6466DC28C9EBC77 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NumberTileGame/Pods-NumberTileGame-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3D4516053224B4299590FCA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NumberTileGame/Pods-NumberTileGame-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A3487A918DEAD6E00D021C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A3487C118DEAD6E00D021C3 /* F3HAppDelegate.m in Sources */,
+				1A34881018E146D800D021C3 /* F3HTileModel.m in Sources */,
+				1A3487BD18DEAD6E00D021C3 /* main.m in Sources */,
+				1A3487F618DEBB9C00D021C3 /* F3HTileAppearanceProvider.m in Sources */,
+				1A34880D18E1468400D021C3 /* F3HGameModel.m in Sources */,
+				1A3487CA18DEAD6E00D021C3 /* F3HViewController.m in Sources */,
+				1A34881F18E148DB00D021C3 /* F3HTileView.m in Sources */,
+				1A3487F318DEBADA00D021C3 /* F3HNumberTileGameViewController.m in Sources */,
+				1A34881318E1477B00D021C3 /* F3HMergeTile.m in Sources */,
+				1A34882218E14BF200D021C3 /* F3HQueueCommand.m in Sources */,
+				1A34881E18E148DB00D021C3 /* F3HGameboardView.m in Sources */,
+				1A34882518E169AA00D021C3 /* F3HScoreView.m in Sources */,
+				1A34882818E1713E00D021C3 /* F3HControlView.m in Sources */,
+				1A34880318E1465D00D021C3 /* F3HMoveOrder.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1A3487B918DEAD6E00D021C3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A3487BA18DEAD6E00D021C3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1A3487C218DEAD6E00D021C3 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A3487C318DEAD6E00D021C3 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1A3487E018DEAD6E00D021C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1A3487E118DEAD6E00D021C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1A3487E318DEAD6E00D021C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 372131E4CF43C4C9C7AC854E /* Pods-NumberTileGame.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NumberTileGame/NumberTileGame-Prefix.pch";
+				INFOPLIST_FILE = "NumberTileGame/NumberTileGame-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"React\"",
+					"-framework",
+					"\"JavaScriptCore\"",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "f3nghuang.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1A3487E418DEAD6E00D021C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F883BF95CFBAEDA4768346DC /* Pods-NumberTileGame.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NumberTileGame/NumberTileGame-Prefix.pch";
+				INFOPLIST_FILE = "NumberTileGame/NumberTileGame-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"React\"",
+					"-framework",
+					"\"JavaScriptCore\"",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "f3nghuang.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A3487A818DEAD6E00D021C3 /* Build configuration list for PBXProject "NumberTileGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A3487E018DEAD6E00D021C3 /* Debug */,
+				1A3487E118DEAD6E00D021C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A3487E218DEAD6E00D021C3 /* Build configuration list for PBXNativeTarget "NumberTileGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A3487E318DEAD6E00D021C3 /* Debug */,
+				1A3487E418DEAD6E00D021C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A3487A518DEAD6E00D021C3 /* Project object */;
+}
